@@ -1,0 +1,10 @@
+apiversion: v1
+kind: pod
+metadata:
+  name: two-tier-app-pod
+
+spec:
+  containers:
+    - name: two-tier-app-pod
+      image: docker push balav8/twotierflaskapp:latest
+
